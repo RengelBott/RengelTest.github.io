@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
         let nombre = document.createElement("div");
         nombre.id = "nombre";
-        nombre.textContent = "Ali<33";
+        nombre.textContent = "Ali<3";
         document.body.appendChild(nombre);
 
         setTimeout(() => {
