@@ -8,16 +8,17 @@ html, body {
 }
 #nombre {
     opacity: 0;
-    font-size: 2rem;
+    font-size: 5rem;  /* Aumentamos el tamaño de la fuente */
     font-weight: bold;
     text-align: center;
     color: white;
     position: absolute;
-    top: 10%;  /* Lo movemos hacia arriba */
+    top: 10%;  /* Lo mantenemos arriba */
     left: 50%;
     transform: translate(-50%, 0);
     transition: opacity 2s ease-in-out;
 }
+
 
 body {
     position: relative;
